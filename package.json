@@ -1,0 +1,38 @@
+{
+  "name": "contentstack-graphql-schema-stiching",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node -r esm lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint lib test"
+  },
+  "engines": {
+    "node": ">=8.0.0 <11.0.0"
+  },
+  "type": "module",
+  "module": "commonjs",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-link": "^1.2.14",
+    "apollo-link-http": "^1.5.16",
+    "apollo-server": "^2.15.1",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.0.13",
+    "mz": "^2.7.0",
+    "node-fetch": "^2.6.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "esm": "^3.2.25"
+  }
+}
