@@ -16,9 +16,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-link": "^1.2.14",
-    "apollo-link-http": "^1.5.16",
-    "apollo-server": "^2.15.1",
     "graphql": "^15.3.0",
     "graphql-tools": "^6.0.13",
     "mz": "^2.7.0",
