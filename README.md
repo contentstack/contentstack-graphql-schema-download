@@ -9,6 +9,11 @@ Contentstack GraphQL provides schema response with limit of 100 Content Types. S
  - You need Node.js version 10
 
 ## Setup and Installation
+ - Install Node v10
+```
+    brew install node@10
+    brew link node@10
+```
  - Clone this project with following command:
 ```
     git clone https://github.com/contentstack/contentstack-graphql-schema-dwonload.git
