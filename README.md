@@ -10,7 +10,7 @@ You need Node.js version 10 or later installed on your machine
 ## Setup and Installation
  - Clone this project by using the following command:
 ```
-    git clone https://github.com/contentstack/contentstack-graphql-schema-dwonload.git
+    git clone https://github.com/contentstack/contentstack-graphql-schema-download.git
 ```
  - Then, install all the required modules by using the following command:
  ```
@@ -23,7 +23,7 @@ You need Node.js version 10 or later installed on your machine
 const config = {
   host: '<HOST>',
   api_key: '<STACK_API_KEY>',
-  deliveryToken: '<ENVIRONMENT_SPECIFIV_DELIVERY_TOKEN>',
+  deliveryToken: '<ENVIRONMENT_SPECIFIC_DELIVERY_TOKEN>',
   environment: '<ENVIRONMENT>',
   contentTypes: '<NUMBER_OF_CONTENT_TYPES_IN_STACK>',
   fileName: '<SCHEMA_FILE_NAME>'
