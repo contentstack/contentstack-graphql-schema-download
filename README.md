@@ -16,7 +16,7 @@ You need Node.js version 10 or later installed on your machine
  ```
     npm install
  ```
- 
+
 ## Configuration
  - Update the configuration details as follows:
  ```
@@ -29,7 +29,7 @@ const config = {
   fileName: '<SCHEMA_FILE_NAME>'
 }
  ```
- 
+
 ## Usage
  - Once you have updated the configuration, run the following command:
 ```
