@@ -5,12 +5,12 @@ Downloading schema is the process of creating a single GraphQL schema from the C
 Contentstack GraphQL provides a schema response with a limit of 100 Content Types. Therefore, to create a single ```schema.json``` file, we need to paginate through the GraphQL. This library will help you to generate a single schema file by paginating and merging the schema.
 
 ## Prerequisite
-You need Node.js version 10.21.0 or later installed on your machine
+You need Node.js version 10 or later installed on your machine
 
 ## Setup and Installation
  - Clone this project by using the following command:
 ```
-    git clone https://github.com/contentstack/contentstack-graphql-schema-dwonload.git
+    git clone https://github.com/contentstack/contentstack-graphql-schema-download.git
 ```
  - Then, install all the required modules by using the following command:
  ```
@@ -23,7 +23,7 @@ You need Node.js version 10.21.0 or later installed on your machine
 const config = {
   host: '<HOST>',
   api_key: '<STACK_API_KEY>',
-  deliveryToken: '<ENVIRONMENT_SPECIFIV_DELIVERY_TOKEN>',
+  deliveryToken: '<ENVIRONMENT_SPECIFIC_DELIVERY_TOKEN>',
   environment: '<ENVIRONMENT>',
   contentTypes: '<NUMBER_OF_CONTENT_TYPES_IN_STACK>',
   fileName: '<SCHEMA_FILE_NAME>'
