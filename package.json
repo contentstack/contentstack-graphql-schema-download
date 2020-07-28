@@ -1,7 +1,7 @@
 {
   "name": "contentstack-graphql-schema-download",
   "version": "1.0.0",
-  "description": "",
+  "description": "Downloading schema is the process of creating a single GraphQL schema from the Contentstack GraphQL pagination. This library will help you to generate a single schema file by paginating and merging the schema.",
   "main": "lib/index.js",
   "scripts": {
     "start": "node lib/index.js",
