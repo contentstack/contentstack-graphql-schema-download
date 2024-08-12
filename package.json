@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "graphql": "^15.3.0",
-    "graphql-tools": "^6.0.13",
+    "graphql-tools": "^9.0.1",
     "mz": "^2.7.0",
     "node-fetch": "^2.6.1"
   },
