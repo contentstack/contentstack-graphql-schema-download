@@ -9,16 +9,20 @@
     "lint": "eslint lib test"
   },
   "engines": {
-    "node": ">=8.0.0 <11.0.0"
+    "node": ">=8.0.0"
   },
   "module": "commonjs",
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@graphql-tools/load": "^8.1.0",
+    "@graphql-tools/schema": "^10.0.23",
+    "@graphql-tools/url-loader": "^8.0.31",
+    "@graphql-tools/wrap": "^10.0.35",
     "graphql": "^15.3.0",
-    "graphql-tools": "^6.0.13",
+    "graphql-tools": "^9.0.1",
     "mz": "^2.7.0",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "eslint": "^7.4.0",
