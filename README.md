@@ -7,7 +7,7 @@ Downloading schema is the process of creating a single GraphQL schema from the C
 Contentstack GraphQL provides a schema response with a limit of 100 Content Types. Therefore, to create a single ```schema.json``` file, we need to paginate through the GraphQL. This library will help you to generate a single schema file by paginating and merging the schema.
 
 ## Prerequisite
-You need Node.js version 10 or later installed on your machine
+You need Node.js version 18 or later installed on your machine
 
 ## Setup and Installation
  - Clone this project by using the following command:
@@ -31,6 +31,9 @@ const config = {
   fileName: '<SCHEMA_FILE_NAME>'
 }
  ```
+#### 🔗 Choosing the Right Host:
+Refer to the [GraphQL Content Delivery API documentation](https://www.contentstack.com/docs/developers/apis/graphql-content-delivery-api)
+to determine the correct `host` value based on your region and environment.
 
 ## Usage
  - Once you have updated the configuration as shown above, you can use following command to download the schema:
@@ -44,7 +47,7 @@ const config = {
  - iOS requires a GraphQL schema file as input to the code generation process. A schema file is a JSON file that contains the results of an introspection query. Conventionally, this file is called schema.json.
 - Note that you are required to add this in the folder where most of your code is, and NOT in the same folder where the .xcodeproj and/or .xcworkspace are located.
 
- Refer the [Adding a schema file to your target directory](https://www.apollographql.com/docs/ios/installation/#adding-a-schema-file-to-your-target-directory) doc for more information.
+ Refer the [Adding a schema file to your target directory](https://www.apollographql.com/docs/ios/get-started) doc for more information.
 
 ### Android
  - Android requires your GraphQL server's schema as a schema.json file. You can obtain the content of this file by running an introspection query on your server.
@@ -53,5 +56,5 @@ const config = {
  src/main/graphql/com/example/schema.json
  ```
 
- Refer the [Add your query](https://www.apollographql.com/docs/android/essentials/get-started-kotlin/#add-your-query) doc for more information.
+ Refer the [Add your query](https://www.apollographql.com/docs/kotlin/v2/essentials/get-started-kotlin) doc for more information.
  
