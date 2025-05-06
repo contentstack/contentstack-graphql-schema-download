@@ -1,4 +1,4 @@
-export const config = {
+const config = {
   host: '<HOST>',
   // deepcode ignore HardcodedNonCryptoSecret: it's not a secret
   apiKey: '<STACK_API_KEY>',
@@ -7,3 +7,4 @@ export const config = {
   contentTypes: '<NUMBER_OF_CONTENT_TYPES_IN_STACK>',
   fileName: '<SCHEMA_FILE_NAME>'
 }
+module.exports = { config }
