@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@graphql-tools/load": "^8.1.0",
-    "@graphql-tools/merge": "^8.4.2",
+    "@graphql-tools/merge": "^9.0.24",
     "@graphql-tools/url-loader": "^8.0.31",
     "graphql": "^16.11.0",
     "mz": "^2.7.0",
