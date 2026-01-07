@@ -1,5 +1,3 @@
-> [!WARNING]
-  **This repo is deprecated and no longer maintained. Security updates are not supported. We recommend avoiding its use.** We recommend viewing our latest [Kickstarts](https://www.contentstack.com/docs/developers/kickstarts).
 [![Contentstack](https://www.contentstack.com/docs/static/images/contentstack.png)](https://www.contentstack.com/)
 
 # Contentstack GraphQL Schema Download
